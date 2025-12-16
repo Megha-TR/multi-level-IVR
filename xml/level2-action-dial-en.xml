@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Speak voice="Polly.Joanna" language="en-US">Connecting you to a live associate. Please hold.</Speak>
+    <Dial callerId="{{PLIVO_PHONE_NUMBER}}" callerName="InspireWorks">
+        <Number>{{FORWARD_TO_NUMBER}}</Number>
+    </Dial>
+    <Speak voice="Polly.Joanna" language="en-US">The call could not be completed. Thank you for calling.</Speak>
+    <Hangup/>
+</Response>
+

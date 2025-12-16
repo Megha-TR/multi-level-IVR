@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Speak voice="Polly.Lupe" language="es-US">Conectándote con un asociado. Por favor espera.</Speak>
+    <Dial callerId="{{PLIVO_PHONE_NUMBER}}" callerName="InspireWorks">
+        <Number>{{FORWARD_TO_NUMBER}}</Number>
+    </Dial>
+    <Speak voice="Polly.Lupe" language="es-US">La llamada no pudo completarse. Gracias por llamar.</Speak>
+    <Hangup/>
+</Response>
+

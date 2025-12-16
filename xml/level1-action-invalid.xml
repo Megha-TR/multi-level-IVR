@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Speak voice="Polly.Joanna" language="en-US">Invalid selection. Please try again.</Speak>
+    <Redirect method="GET">{{BASE_URL}}/ivr/level1</Redirect>
+</Response>
+

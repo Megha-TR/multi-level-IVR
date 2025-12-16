@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <GetDigits action="{{BASE_URL}}/ivr/level2-action?lang=es" method="GET" timeout="10" numDigits="1" retries="3">
+        <Speak voice="Polly.Lupe" language="es-US">Presiona 1 para escuchar un mensaje de audio. Presiona 2 para hablar con un asociado.</Speak>
+    </GetDigits>
+    <Speak voice="Polly.Lupe" language="es-US">No recibimos tu selección. Por favor intenta de nuevo.</Speak>
+</Response>
+

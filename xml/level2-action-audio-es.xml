@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Speak voice="Polly.Lupe" language="es-US">Reproduciendo mensaje de audio.</Speak>
+    <Play>{{AUDIO_URL}}</Play>
+    <Speak voice="Polly.Lupe" language="es-US">Gracias por llamar. Adiós.</Speak>
+    <Hangup/>
+</Response>
+

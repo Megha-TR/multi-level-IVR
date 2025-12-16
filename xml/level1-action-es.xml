@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Speak voice="Polly.Lupe" language="es-US">Seleccionaste español. Por favor espera mientras te conectamos.</Speak>
+    <Redirect method="GET">{{BASE_URL}}/ivr/level2?lang=es</Redirect>
+</Response>
+

@@ -1,0 +1,13 @@
+name: plivo-ivr
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - flask==3.0.0
+    - plivo==4.20.0
+    - python-dotenv==1.0.0
+    - requests==2.31.0
+

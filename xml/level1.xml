@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <GetDigits action="{{BASE_URL}}/ivr/level1-action" method="GET" timeout="10" numDigits="1" retries="3">
+        <Speak voice="Polly.Joanna" language="en-US">Welcome to InspireWorks. Press 1 for English. Press 2 for Spanish.</Speak>
+    </GetDigits>
+    <Speak voice="Polly.Joanna" language="en-US">We didn't receive your selection. Please try again.</Speak>
+</Response>
+
