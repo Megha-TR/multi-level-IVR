@@ -32,8 +32,8 @@ echo "🔧 Setting up environment variables..."
 if [ ! -f .env ]; then
     cat > .env << EOF
 # Plivo Credentials
-PLIVO_AUTH_ID=MANZJJOGRLNZK0ZMZIMM
-PLIVO_AUTH_TOKEN=NmU2ZmRhMjYtOTE1OS00YWRiLWJlNmEtNTIxYzUy
+PLIVO_AUTH_ID=YOUR_PLIVO_AUTH_ID
+PLIVO_AUTH_TOKEN=YOUR_PLIVO_AUTH_TOKEN
 
 # Your Plivo Phone Number (update this with your actual Plivo number)
 PLIVO_PHONE_NUMBER=

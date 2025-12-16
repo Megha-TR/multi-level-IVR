@@ -21,8 +21,8 @@ All call flow logic is handled using **Plivo XML** (not JSON API), as required.
 
 1. **Conda** installed on your system
 2. **Plivo Account** with:
-   - Auth ID: `MANZJJOGRLNZK0ZMZIMM`
-   - Auth Token: `NmU2ZmRhMjYtOTE1OS00YWRiLWJlNmEtNTIxYzUy`
+   - Auth ID (get from Plivo dashboard)
+   - Auth Token (get from Plivo dashboard)
    - A Plivo phone number (for making outbound calls)
 3. **ngrok** or similar tool (for exposing local server to Plivo)
 
@@ -159,11 +159,11 @@ plivo/
 
 ## 🔑 Plivo Credentials
 
-The following credentials are already configured:
-- **Auth ID**: `MANZJJOGRLNZK0ZMZIMM`
-- **Auth Token**: `NmU2ZmRhMjYtOTE1OS00YWRiLWJlNmEtNTIxYzUy`
+You need to configure your Plivo credentials in the `.env` file:
+- **Auth ID**: Get from your Plivo dashboard
+- **Auth Token**: Get from your Plivo dashboard
 
-These are set in `.env.example` and should be copied to your `.env` file.
+Copy `.env.example` to `.env` and add your credentials there.
 
 ## 📝 Plivo XML Elements Used
 

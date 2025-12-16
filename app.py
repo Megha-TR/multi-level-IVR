@@ -14,8 +14,8 @@ load_dotenv()
 app = Flask(__name__)
 
 # Plivo credentials
-PLIVO_AUTH_ID = os.getenv('PLIVO_AUTH_ID', 'MANZJJOGRLNZK0ZMZIMM')
-PLIVO_AUTH_TOKEN = os.getenv('PLIVO_AUTH_TOKEN', 'NmU2ZmRhMjYtOTE1OS00YWRiLWJlNmEtNTIxYzUy')
+PLIVO_AUTH_ID = os.getenv('PLIVO_AUTH_ID', '')  # Set in .env file
+PLIVO_AUTH_TOKEN = os.getenv('PLIVO_AUTH_TOKEN', '')  # Set in .env file
 PLIVO_PHONE_NUMBER = os.getenv('PLIVO_PHONE_NUMBER', '')  # Your Plivo number
 FORWARD_TO_NUMBER = os.getenv('FORWARD_TO_NUMBER', '+1234567890')  # Placeholder for live associate
 
